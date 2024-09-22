@@ -20,8 +20,8 @@ let expandingCircle = {
 
 function preload() {
   crosshair = loadImage('crosshair.png');
-  pixeltank = createImg('pixeltank.png');
-  bullet = createImg('pixelbullet.png');
+  pixeltank = loadImage('pixeltank.png');
+  bullet = loadImage('pixelbullet.png');
   boulderImage = loadImage('boulder.png');
   land = loadImage('land.png');
 }
